@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="test">
+      <link rel="stylesheet" href="styles.css" />
+      <h2 style="text-align: center;">
+        Wait for a min NANNI to know what i want to say
+      </h2>
+
+      <h1 style="text-align: center;" id="demo" class="s"></h1>
+      <h1 style="text-align: center;" id="demo1" class="s1"></h1>
+      <h1 style="text-align: center;" id="demo2" class="s2"></h1>
+      <script>
+        setTimeout(myFunction, 5000);
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "demo 1I";
+        }
+        setTimeout(myFunction1, 10000);
+        function myFunction1() {
+          document.getElementById("demo1").innerHTML = "demo 2";
+        }
+        setTimeout(myFunction2, 15000);
+        function myFunction2() {
+          document.getElementById("demo2").innerHTML = "demo 3";
+        }
+      </script>
+    </div>
+  </body>
+</html>
